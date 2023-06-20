@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
 
-    <section id="home">
-        Hola Mundo
-    </section>
-    <h4 class="titulo1">Titulo 1</h4>
-    <h4 class="titulo1">Titulo 2</h4>
-    <h4 class="titulo1">Titulo 3</h4>
-    <h4 class="titulo2">Titulo 4</h4>
-    <h4 class="titulo3">Titulo 5</h4>
-    <h4 class="titulo2 titulo3">Titulo 6</h4>
+
+    <input type="number" name="saldo" placeholder="Num 1" onkeyup="solo_numbers(this)">
+    <input type="number" name="saldo" placeholder="Num 2" 
+    onmouseover="activar_fondo(this)" onmouseout="desactivar_fondo(this)">
+
+    <button onclick="alert(1);">Click Aqui</button>
 
 
-    <input type="radio" name="genero" value="M" checked> M 
-    <input type="radio" name="genero" value="F"> F 
-    <br>
-    <input type="checkbox" name="hobbies[]" id="hobbies_1" checked> hobbies 1<br>
-    <input type="checkbox" name="hobbies[]" id="hobbies_2"> hobbies 2<br>
-    <input type="checkbox" name="hobbies[]" id="hobbies_3"> hobbies 3<br>
-    <input type="checkbox" name="hobbies[]" id="hobbies_4" checked> hobbies 4<br>
-    <input type="checkbox" name="hobbies[]" id="hobbies_5"> hobbies 5<br>
-    <input type="checkbox" name="hobbies[]" id="hobbies_6" checked> hobbies 6<br>
-    <input type="checkbox" name="hobbies[]" id="hobbies_7" checked> hobbies 7<br>
 
-    <script src="./main.js"></script>
+    <button id="btnSaludar">Saludar</button>
+
+
+    <a href="https://facebook.com" target="_blank" id="lnFace">Facebook</a>
+
+
+
+    <input type="checkbox" name="option" id="opcion_1">
+
+    <form>
+        <input type="email" name="email" placeholder="Subscribe...">
+        <button>Enviar</button>
+    </form>
+
+<div class="pagina">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur velit dolorem culpa sit accusamus ut nostrum quas repellendus, non sequi id! Repellat quasi, error beatae alias obcaecati accusamus totam.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur velit dolorem culpa sit accusamus ut nostrum quas repellendus, non sequi id! Repellat quasi, error beatae alias obcaecati accusamus totam.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur velit dolorem culpa sit accusamus ut nostrum quas repellendus, non sequi id! Repellat quasi, error beatae alias obcaecati accusamus totam.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur velit dolorem culpa sit accusamus ut nostrum quas repellendus, non sequi id! Repellat quasi, error beatae alias obcaecati accusamus totam.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur velit dolorem culpa sit accusamus ut nostrum quas repellendus, non sequi id! Repellat quasi, error beatae alias obcaecati accusamus totam.
+    </p>
+</div>
+    
+
+<div class="opciones">
+    <input type="checkbox" name="ck[]" id="ck_1" value="1"> 1
+    <input type="checkbox" name="ck[]" id="ck_2" value="2"> 2
+    <input type="checkbox" name="ck[]" id="ck_3" value="3"> 3
+    <input type="checkbox" name="ck[]" id="ck_4" value="4"> 4
+    <input type="checkbox" name="ck[]" id="ck_5" value="5"> 5
+</div>
+
+    
+    <script src="./events.js"></script>
+
+
 </body>
-
 </html>
